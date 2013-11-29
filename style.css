@@ -25,3 +25,12 @@ h2{
 p{
   font-family: 'Open Sans', sans-serif;
 }
+
+img{
+  width: 50px;
+}
+
+.footer{
+  width: 105px;
+  margin: 10px auto;
+}
