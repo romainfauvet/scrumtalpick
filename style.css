@@ -26,11 +26,15 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
-img{
-  width: 50px;
+.footer{
+  width: 200px;
+  margin: 50px auto;
 }
 
-.footer{
-  width: 105px;
-  margin: 10px auto;
+.facebook{
+  margin-right: 45px;
+}
+
+.footer a{
+  float:left;
 }
