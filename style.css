@@ -65,3 +65,7 @@ iframe{
   font-family: 'Open Sans', sans-serif;
   padding-left: 20px;
 }
+
+.google{
+  display:none;
+}
