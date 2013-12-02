@@ -71,6 +71,6 @@ iframe{
   display:none;
 }
 
-#footer{
+#disqus_thread #footer{
   display: none;
 }
