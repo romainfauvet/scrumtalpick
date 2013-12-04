@@ -1,0 +1,12 @@
+site:
+  title: Scrumtalpick
+  description: Scrumtalpick débarque à Lille. Ce produit va révolutionner la métropole lilloise. Tous à vos Scrumtalpick!
+  url: 'http://scrumtalpick.fr'
+  logo: 'http://scrumtalpick.fr/apple-touch-icon-144x144-precomposed.png'
+social:
+  google_plus: 'https://plus.google.com/u/0/107209120147579184215'
+  twitter: 'https://twitter.com/RomainFauvet'
+  github: 'https://github.com/romainfauvet'
+  flattr: romfov
+google_analytics:
+  tracking_code: 'UA-41284567-2'

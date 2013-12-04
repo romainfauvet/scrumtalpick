@@ -1,2 +1,2 @@
-scrumtalpick
+Scrumtalpick
 ============

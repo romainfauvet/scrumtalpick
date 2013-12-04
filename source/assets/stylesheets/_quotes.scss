@@ -1,0 +1,67 @@
+$font-weight-normal: 400;
+$text-shadow : 0 1px 1px rgba($black,.4);
+$quote-border-style : 2px dotted $white-steroid;
+
+$quote-title-font-size: emCalc(60);
+
+body {
+  font-family: 'Signika',sans-serif;
+}
+
+.m-quote {
+  margin: emCalc(100) 0 emCalc(150) 0;
+
+  strong {
+    color: $white-steroid;
+  }
+
+  .l-author {
+    font-family: 'Playfair Display',serif;
+    font-style: italic;
+    font-weight: $font-weight-normal ;
+  }
+
+  .l-title {
+    text-shadow : $text-shadow;
+    border-bottom: $quote-border-style;
+    border-top: $quote-border-style;
+    font-family: 'Quando',serif;
+
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: emCalc(10) 0 emCalc(5);
+    padding: emCalc(5) 0;
+    position: relative;
+
+    font-size: $quote-title-font-size - emCalc(30);
+    @media #{$small} {
+      font-size: $quote-title-font-size;
+    }
+
+    &:before {
+      content: "\201C";
+      position: absolute;
+      top: 0;
+      left: -0.5em;
+      color: $white;
+    }
+    &:after {
+      content: "\201D";
+      position: absolute;
+      bottom: -0.5em;
+      right: -0.5em;
+      color: $white;
+    }
+  }
+
+  .l-links {
+    font-family: 'Signika',sans-serif;
+    font-size: emCalc(20);
+    line-height: 1.5em;
+    margin-right: emCalc(20);
+  }
+}
+
+.js-get-lucky {
+  margin-bottom: emCalc(150);
+}
