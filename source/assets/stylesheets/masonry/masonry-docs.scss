@@ -679,7 +679,7 @@ code .at_rule { color: #088; }
   background: #D26;
   border: 2px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
-  border-radius: 5px;
+  border-radius: 0px;
   -webkit-transition: width 0.4s, height 0.4s;
      -moz-transition: width 0.4s, height 0.4s;
        -o-transition: width 0.4s, height 0.4s;
@@ -740,10 +740,12 @@ code .at_rule { color: #088; }
 
 #hero .primary-content {
   padding-bottom: 20px;
+  width: 100%;
+  margin: 0px;
 }
 
 #hero h1 {
-  font-size: 70px;
+  font-size: 3em;
   line-height: 1.2;
   letter-spacing: -0.01em;
   color: #D26;
@@ -780,9 +782,9 @@ code .at_rule { color: #088; }
 /* ---- hero masonry ---- */
 
 .hero-masonry {
-  background: white;
-  border-radius: 10px;
-  padding: 10px 1%;
+  background: $black image-url("rainbow.gif") top left;
+  border-radius: 0px;
+  padding: 5px;
   margin-bottom: 20px;
 }
 
@@ -797,7 +799,7 @@ code .at_rule { color: #088; }
   width: 46.9%; /* juse a lil under  47 */
   margin: 10px 1%;
   float: left;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 /* necessary for proper sizing with margins */
@@ -806,8 +808,9 @@ code .at_rule { color: #088; }
 }
 
 .hero-item.texty {
-  background: #D8D6D2;
+  background: #FFFFFF;
   padding: 10px;
+  border:1px solid;
 }
 
 
@@ -825,7 +828,7 @@ code .at_rule { color: #088; }
   background: #D26;
   color: white;
   display: block;
-  border-radius: 10px 10px 8px 8px;
+  border-radius: 0;
 }
 
 .hero-item.has-example a:hover {
@@ -836,7 +839,7 @@ code .at_rule { color: #088; }
 .hero-item.has-example img {
   display: block;
   max-width: 100%;
-  border-radius: 8px 8px 0 0;
+  border-radius: 0;
 }
 
 .hero-item.has-example .example-title {
@@ -849,12 +852,15 @@ code .at_rule { color: #088; }
 
   .hero-item,
   .hero-masonry .grid-sizer {
-    width: 22.5%;
+    width: 22.95%%;
   }
 
-  .hero-item.has-title,
   .hero-item.w2 {
-    width: 46.9%; /* just a lil under 47 */
+    width: 47.9%; /* just a lil under 47 */
+  }
+
+  .hero-item.has-title{
+    width: 97.9%;
   }
 
 }
@@ -864,7 +870,7 @@ code .at_rule { color: #088; }
 @media screen and ( min-width: 960px ) {
 
   #hero h1 {
-    font-size: 120px;
+    font-size: 6em;
   }
 
   #hero .tagline {
@@ -873,7 +879,7 @@ code .at_rule { color: #088; }
 
   /* just a little under 71.5 */
   .hero-item.has-title {
-    width: 71.4%;
+    width: 97.85%;
   }
 
   /* buttons */

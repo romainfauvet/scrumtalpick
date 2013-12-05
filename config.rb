@@ -1,4 +1,5 @@
 require 'slim'
+require 'maruku'
 
 activate :gzip
 activate :livereload

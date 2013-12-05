@@ -5,20 +5,6 @@
   "colors",
   "foundation/settings";
 
-// Foundation Components
-@import
-  "foundation/global",
-  "foundation/grid",
-  "foundation/visibility",
-  "foundation/type",
-  "foundation/inline-list",
-  "foundation/buttons";
-
-@import
-  "quotes",
-  "header",
-  "footer";
-
 // Masonry Components
 @import
   "masonry/base",
@@ -32,3 +18,17 @@
   "masonry/masonry-docs",
   "masonry/modules",
   "masonry/site-nav";
+
+// Foundation Components
+@import
+  "foundation/global",
+  "foundation/grid",
+  "foundation/visibility",
+  "foundation/type",
+  "foundation/inline-list",
+  "foundation/buttons";
+
+@import
+  "global",
+  "header",
+  "footer";
