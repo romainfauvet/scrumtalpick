@@ -1,5 +1,8 @@
 require 'slim'
 require 'maruku'
+require 'builder'
+
+page "/sitemap.xml", :layout => false
 
 activate :gzip
 activate :livereload
