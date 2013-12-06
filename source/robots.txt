@@ -1,0 +1,3 @@
+Sitemap: http://www.scrumtalpick.fr/sitemap.xml
+User-Agent: *
+Disallow:

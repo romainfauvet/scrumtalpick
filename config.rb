@@ -1,11 +1,9 @@
 require 'slim'
 require 'maruku'
-require 'builder'
 
 activate :gzip
 activate :livereload
 
-page "/sitemap.html", :layout => false
 
 set :js_dir, 'assets/javascripts'
 set :css_dir, 'assets/stylesheets'
