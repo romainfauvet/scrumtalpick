@@ -7,13 +7,19 @@
 
 <url>
   <loc>http://scrumtalpick.fr/</loc>
-  <lastmod>2013-12-06T12:50:07+00:00</lastmod>
+  <lastmod>2013-12-06T16:04:21+00:00</lastmod>
   <changefreq>always</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://scrumtalpick.fr/decouverte.html</loc>
-  <lastmod>2013-12-06T12:50:07+00:00</lastmod>
+  <lastmod>2013-12-06T16:04:21+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://scrumtalpick.fr/egerie.html</loc>
+  <lastmod>2013-12-06T16:04:21+00:00</lastmod>
   <changefreq>always</changefreq>
   <priority>0.80</priority>
 </url>
