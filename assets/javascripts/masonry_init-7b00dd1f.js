@@ -1,0 +1,1 @@
+docReady(function(){var e=document.querySelector(".masonry"),t=new Masonry(e,{columnWidth:60});eventie.bind(e,"click",function(e){classie.has(e.target,"item")&&(classie.toggle(e.target,"gigante"),t.layout())})});
