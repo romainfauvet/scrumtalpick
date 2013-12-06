@@ -5,6 +5,7 @@ require 'builder'
 activate :gzip
 activate :livereload
 
+page "/sitemap.xml", :layout => false
 page "/sitemap.html", :layout => false
 
 set :js_dir, 'assets/javascripts'
