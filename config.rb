@@ -2,10 +2,10 @@ require 'slim'
 require 'maruku'
 require 'builder'
 
-page "/sitemap.xml", :layout => false
-
 activate :gzip
 activate :livereload
+
+page "/sitemap.html", :layout => false
 
 set :js_dir, 'assets/javascripts'
 set :css_dir, 'assets/stylesheets'

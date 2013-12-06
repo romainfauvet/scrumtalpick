@@ -1,3 +1,0 @@
-Sitemap: http://www.scrumtalpick.fr/sitemap.xml.erb
-User-Agent: *
-Disallow:

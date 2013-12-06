@@ -5,5 +5,6 @@ gem 'middleman-gh-pages'
 gem 'middleman-livereload'
 gem 'slim'
 gem 'middleman-favicon-maker'
-gem "builder"
+gem 'builder'
+
 gem 'maruku'
