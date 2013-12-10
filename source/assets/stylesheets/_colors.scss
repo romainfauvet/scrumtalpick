@@ -4,6 +4,7 @@ $black       : #111111;
 $yellow : #F9CE34;
 $grey: #1a1a1a;
 $pink: rgb(255, 200, 241);
+$grey-darker: #272A33;
 
 $blue-steroid     : rgb(90, 198, 255);
 $pink-steroid     : rgb(255, 130, 130);
@@ -20,6 +21,6 @@ $alert-color          : $pink-steroid;
 $success-color        : $green-steroid;
 
 $body-font-color: $black;
-$body-bg: $pink;
+$body-bg: $grey-darker;
 
 $anchor-font-color: $red-steroid;

@@ -12,19 +12,7 @@
 }
 
 .one:hover {
-  background: #FFFD00;
-}
-
-.two:hover {
-  background: #FF00E1;
-}
-
-.three:hover {
-  background: #0000FF;
-}
-
-.four:hover {
-  background: #00FF22;
+  opacity: 0.8;
 }
 
 .what-is p{
@@ -43,16 +31,58 @@
 }
 
 .btn-return{
-  width: 182px;
-  height: 27px;
-  background: #FFB200;
+  width: 220px;
+  height: 50px;
+  background: #EB6156;
   display: block;
   float: right;
-  padding: 5px;
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.btn-return:hover{
+  opacity: 0.8;
 }
 
 #disqus_thread{
   margin-top: 20px;
-  background: #E600FF;
+  background: #FFFFFF;
   padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+em{
+  color: #000000;
+}
+
+p{
+  color: #929498;
+}
+
+img{
+  display: block!important;
+  margin: 0 auto;
+}
+
+.hero-item.has-title{
+  background: none;
+}
+
+.img_social{
+  display: inline!important;
+  margin: 10px 10px -10px 0;
+}
+
+.img_social:hover{
+  opacity: 0.8;
 }

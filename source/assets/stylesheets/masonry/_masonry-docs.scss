@@ -748,7 +748,7 @@ code .at_rule { color: #088; }
   font-size: 3em;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: #0D00FF;
+  color: #FFFFFF;
   margin-bottom: 0.1em;
 }
 
@@ -782,7 +782,7 @@ code .at_rule { color: #088; }
 /* ---- hero masonry ---- */
 
 .hero-masonry {
-  background: $black image-url("bg.jpg") top left;
+  background: #272A33;
   border-radius: 0px;
   padding: 5px;
   margin-bottom: 20px;
@@ -808,11 +808,17 @@ code .at_rule { color: #088; }
 }
 
 .hero-item.texty {
-  background: #FFFFFF;
+  background: #EB6156;
   padding: 10px;
-  border:1px solid;
+  border:1px solid #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
+.hero-item.texty h2{
+  color: #FFFFFF;
+}
 
 .hero-item.has-title,
 .hero-item.w2 {
@@ -857,6 +863,13 @@ code .at_rule { color: #088; }
 
   .hero-item.w2 {
     width: 47.9%; /* just a lil under 47 */
+    background: #EB6156;
+    color: #FFFFFF;
+    border: solid 1px #FFFFFF;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
   }
 
   .hero-item.has-title{
@@ -875,12 +888,17 @@ code .at_rule { color: #088; }
 
   #hero .tagline {
     font-size: 32px;
-    color: #00FF0F;
+    color: #929498;
   }
 
   /* just a little under 71.5 */
   .hero-item.has-title {
     width: 97.85%;
+    background: #272A33;
+    border: white 1px solid;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
   }
 
   /* buttons */
