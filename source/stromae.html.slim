@@ -1,0 +1,35 @@
+---
+  title: Stromae chante Scrumtalpick
+  description: Stromae recherche Pastore
+---
+
+div id="hero"
+  div class="primary-content"
+    div class="hero-masonry"
+      div class="grid-sizer"
+      div class="hero-item has-title texty"
+        = Maruku.new(partial "views/content/stromae").to_html;
+        a href="http://scrumtalpick.fr" title="Retour homepage scrumtalpick"
+          span class="btn-return" Retour page précédente
+        a name="fb_share" share_url="http://scrumtalpick.fr/stromae.html" type="button"
+        script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"
+        a.twitter-share-button data-count="none" data-hashtags="scrumtalpick" data-lang="fr" href="https://twitter.com/share"
+        javascript:
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        g:plusone
+        #disqus_thread
+        javascript:
+          /!* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = 'httpscrumtalpickfr';
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+
+        noscript
+          | Please enable JavaScript to view the
+          a href="http://disqus.com/?ref_noscript"
+        a.dsq-brlink href="http://disqus.com"
+          | comments powered by
+          span.logo-disqus Disqus
