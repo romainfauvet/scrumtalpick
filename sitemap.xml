@@ -35,4 +35,22 @@
   <changefreq>always</changefreq>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>http://scrumtalpick.fr/noel.html</loc>
+  <lastmod>2014-01-10T16:04:21+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://scrumtalpick.fr/nouvelle-annee.html</loc>
+  <lastmod>2014-01-14T16:04:21+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://scrumtalpick.fr/U2-invisible.html</loc>
+  <lastmod>2014-01-27T16:04:21+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
 </urlset>
